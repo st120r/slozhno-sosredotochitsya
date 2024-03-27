@@ -1,15 +1,15 @@
 .page {
   color: var(--main-text-color);
   font-family: "IBM Plex mono";
+  background-color: var(--background-color);  
+}
+
+.header {
   background: var(--background-image);
-  background-color: var(--background-color);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-}
-
-.header {
   position: relative;
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
