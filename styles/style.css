@@ -1,7 +1,8 @@
 .page {
   color: var(--main-text-color);
   font-family: "IBM Plex mono";
-  background-color: var(--background-color);  
+  background-color: var(--background-color);
+  background-attachment: fixed;
 }
 
 .header {
@@ -9,7 +10,6 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-attachment: fixed;
   position: relative;
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
