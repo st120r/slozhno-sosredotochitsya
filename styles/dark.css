@@ -10,5 +10,6 @@
   --link-shadow: var(--title-shadow);
   --rec-color: var(--title-shadow);
   --border-color: var(--title);
+  --border-color-hover: rgba(255, 0, 112, 0.4);
   --corners-color: var(--title-shadow);
 }

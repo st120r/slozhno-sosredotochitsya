@@ -13,8 +13,9 @@
   --background-color: #fff1f7;
   --background-image: url(../images/cover-image-light.png);
   --border-color: var(--title);
+  --border-color-hover: rgba(53, 52, 48, 0.4);
   --corners-color: var(--main-text-color);
-  --link-shadow: var(--title-color);
+  --link-shadow: var(--background-title-color);
   --rec-color: var(--background-color);
 }
 
@@ -29,8 +30,9 @@
     --background-color: #fff1f7;
     --background-image: url(../images/cover-image-light.png);
     --border-color: var(--title);
+    --border-color-hover: rgba(53, 52, 48, 0.4);
     --corners-color: var(--main-text-color);
-    --link-shadow: var(--title-color);
+    --link-shadow: var(--background-title-color);
     --rec-color: var(--background-color);
   }
 }

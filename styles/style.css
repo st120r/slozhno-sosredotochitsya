@@ -2,11 +2,11 @@
   color: var(--main-text-color);
   font-family: "IBM Plex mono", "Courier New", monospace;
   background-color: var(--background-color);
-  background-attachment: fixed;
   background: var(--background-image);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .header {
@@ -86,7 +86,7 @@
 }
 
 .header__theme-menu-button:hover {
-  outline: 1px solid var(--border-color);
+  outline: 1px solid var(--border-color-hover);
 }
 
 .header__theme-menu-button:focus {
