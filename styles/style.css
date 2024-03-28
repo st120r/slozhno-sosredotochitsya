@@ -1,15 +1,15 @@
 .page {
   color: var(--main-text-color);
-  font-family: "IBM Plex mono";
+  font-family: "IBM Plex mono", "Courier New", monospace;
   background-color: var(--background-color);
   background-attachment: fixed;
-}
-
-.header {
   background: var(--background-image);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.header {
   position: relative;
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
@@ -70,7 +70,7 @@
 .header__theme-menu-button {
   height: 25px;
   border: transparent;
-  padding: 0px 13px;
+  padding: 0 13px;
   color: var(--corners-color);
   font-weight: 400;
   font-size: 18px;
@@ -104,7 +104,14 @@
   font-weight: 700;
 }
 
-.decorated-zone::after,
+.decorated-zone::after {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  border: 1px solid var(--corners-color);
+}
+
 .decorated-zone::before {
   content: "";
   position: absolute;
@@ -239,7 +246,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .footer__title {
